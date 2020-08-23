@@ -18,3 +18,16 @@ body {
   height: 80px;
   width: 80px;
 }
+
+.kinetic::after,
+.kinetic::before {
+  content: "";
+  border: 50px solid transparent;
+  border-bottom-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  animation: rotate 2s linear infinite;
+}
