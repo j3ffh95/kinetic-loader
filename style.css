@@ -12,3 +12,9 @@ body {
   height: 100vh;
   margin: 0;
 }
+
+.kinetic {
+  position: relative;
+  height: 80px;
+  width: 80px;
+}
